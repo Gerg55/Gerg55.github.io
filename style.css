@@ -1,11 +1,7 @@
 body {
     font-family: "Lato", Helvetica, sans-serif;
     font-weight: 100;
-    color: black;
+    background-color: black;
+    color: blue;
     font-size: 1.5em;
-}
-p {
-   padding: 0 40px;
-   text-align: center;
-   font-size: 0.75em;
 }
