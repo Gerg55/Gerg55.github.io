@@ -1,0 +1,12 @@
+body {
+    font-family Lato, Helvetica, sans-serif;
+    font-weight 100;
+    background-color #191919;
+    color #0072FF;
+    font-size 1.5em;
+}
+img {
+    margin 30px;
+    position relative;
+    max-width 25%;
+}
