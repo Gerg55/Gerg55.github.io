@@ -4,6 +4,10 @@ body {
     background-color: #191919;
     color: #0072FF;
     font-size: 1.5em;
+    padding-left:30px;
+}
+li{
+    color:#ff8800;
 }
 
 #evilButton {
@@ -12,4 +16,8 @@ body {
 }
 #skeleton {
     display: none;
+}
+
+#purp {
+    width:35%;
 }
