@@ -7,7 +7,7 @@
 <body>
 
     <h1>C Engine (in development)</h1>
-    <img src="Images/Cengine.png" height="411" width="691" title="A screenshot of the engine in its current state"/>
+    <img src="Images/Cengine.png" height="411" width="691" title="A mountain 3D model, showcasing shadow mapping and model loading"/>
     <h2>Current features:</h2>
     <ul>
         <li>3D first person camera control</li>
@@ -15,11 +15,21 @@
         <li>A simple Blinn-Phong lighting model</li>
         <li>Real-time directional shadow mapping</li>
         <li>Console commands to modify scene (will be replaced with a GUI)</li>
-    <h3>Recent additions (11/3/25):</h3>
+    </ul>
+    <h3>Recent additions (11/3/25 - 17/3/25):</h3>
     <ul>
         <li>3D transformation matrices (quaternions for rotation)</li>
+        <li>New material system</li>
+        <li>Began work on a simple ECS system</li>
     </ul>
-    </ul>
+    <h2>About:</h2>
+    <p>
+        This is not a proper game engine yet. Instead it is more a framework to easily create 3D graphics. Soon I will add simple phyics to change it from a 3D graphics framework to a more complete game framework. After that I will start implementing more game enginy features 
+        such as an editor and scripting(maybe) as well as further improve the graphical side. It is still early in the project, but once I have a decent game framework I might make a small game. I am not working on the project as much as I want myself to so I don't want to be
+        too ambitious. Below is a video of the game engine as of 17/3/25. It demonstrates the transformations (translation, scaling and rotation) and the new material system which includes texturing and specular mapping. The specular mapping is not apparent in the video because 
+        I had forgot to transform the fragment position in the vertex shader so the specular highlights were wrong.
+    </p>
+    <video controls src="Images/gameEngineCurrentState.mp4" width="800"> </video>
     <hr>
     <a href="index.html">Back to intro</a>
 </body>
