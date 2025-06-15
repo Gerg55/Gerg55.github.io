@@ -21,7 +21,7 @@
        <li>Changed from .ply format to my custom .gply format for 3D models and animations</li>
        <li>Finished basic skeletal animation code, to be polished and re-added when I have an ECS</li>
        <li>Shader implementation refactor + geometry shader support</li>
-       <li>Experiments not related to engine development (see below)</li>
+       <li>Experiments not necessarily related to engine development (see below)</li>
        <li>decided to bring back this bloodeh github pages thing</li>
     </ul>
     <h3>Work in progress (15/06/25):</h3>
@@ -35,10 +35,17 @@
         actual engine with an editor, asset management, etc.
     <br> </br>    
         The engine development was a little stagnant because I was having more fun experimenting in the engine. These are what I made:<br>
+        - Added OBB collision detection using separating axis theorem<br>
         - Recreated the "Final Demo" of <a href="https://www.youtube.com/watch?v=yyJ-hdISgnw"target="_blank">Sebastian Lague's software rasterizer</a> of a plane flying through procedural terrain<br>
         - 3rd person character controller that I designed in Unity which I then added skeletal animation to (nicked the model from Sebatstain Lague)<br>
         - State machine wandering NPC (reminds me of my self ghagahaahaharaahaha) also with skeletal animation<br>
         - Realised I was stupid enough to copy code from my UBO tests into a function in my shader implementation without changing any literals to function parameters and not notice for nearly 2 months<br>
+        <br>
+    <img src="Images/engin_dev_collisionDetection.png" height="300" width="552" title="OBB collision detection and response + debug graphics"/>
+    <img src="Images/engin_dev_planeTerrain.png" height="333" width="576" title="plane through terrain (propeller was animated) + new procedural skybox and minecraft style sun quad" />
+    <img src="Images/engin_dev_skeletalAnim.png" height="330" width="573" title="Walking NPC (left) and idle player (right) in a desert"/>
+
+
     <br> </br>    
         Below is a video of the game engine as of 17/03/25. It demonstrates the (at the time) recent addition of proper transformations (translation, scaling and rotation) and the material system which includes texturing and specular mapping. The specular mapping is not apparent in 
         the video because I had forgot to also transform the fragment position in the vertex shader making the specular highlights static on the objects. That has been fixed. 
