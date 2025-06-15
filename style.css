@@ -1,8 +1,21 @@
+head {
+    color: #0072FF
+}
+h1{
+    color: #0072FF
+}
+h2{
+    color: #0072FF
+}
+h3{
+    color: #0072FF
+}
+
 body {
     font-family: Lato, Helvetica, sans-serif;
     font-weight: 100;
     background-color: #191919;
-    color: #0072FF;
+    color: #ff8800;
     font-size: 1.5em;
     padding-left:30px;
 }
